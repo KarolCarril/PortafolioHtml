@@ -10,8 +10,8 @@ body {
 header {
     display:flex;
     background-color: rgb(208, 200, 231);
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-around;
 }
 header nav ul{
     display: flex;
