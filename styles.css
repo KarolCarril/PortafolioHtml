@@ -1,0 +1,174 @@
+* {
+    padding: 0%;
+    border: 0%;
+}
+body {
+    background-color: rgb(255, 255, 249);
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    display:flex;
+    background-color: rgb(208, 200, 231);
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    justify-content:flex-end;
+    gap: 1cm;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+header a {
+    color:rgb(57, 77, 95);
+    font-size: 15px;
+    font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+ol,ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header a i{
+    color:rgb(28, 201, 65);
+    font-size: 40px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+.seccion1{
+    background-color: rgb(248, 246, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+.acerca-de-mi {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1cm;
+    flex-direction:center;
+    align-items: center;
+    gap: 5px;
+}
+.seccion1 p{
+    font-style:unset;
+    font-family: "Dancing Script";
+      font-optical-sizing: 200px;
+      font-weight: 200px;
+    font-size: 30px;
+}    
+.seccion1 h2{
+    font-family: sans-serif;
+}
+.pastel{
+    display: flex;
+    justify-content:flex-end;
+    gap: 0 cm;
+    margin: 0%;
+    border: 0%;
+ }
+.titulo-seccion-3 h2{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    font-size: 30px;
+}
+.sección3{
+    padding: 50px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    align-items: flex-start;
+    align-content: center ;
+    justify-items: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.p{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+} 
+.items{
+    display: flex;
+    border-radius: 1cm; 
+    width: 300px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-items: center;
+    padding-left:  15px;
+}
+.item2{
+    width: 480;
+    height: 200;
+}
+footer div{
+    display: flex;
+    padding: 20px;
+    background-color: rosybrown;
+}
+footer h2{
+    color: rgb(129, 119, 119);   
+    font-weight: 400;
+    font-style: normal;
+}
+.conoce-más{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 1cm;
+}
+footer nav {
+    display: flex;
+    gap: 1cm;
+    list-style: none; 
+}
+a {
+    display: flex;
+    color: rgb(219, 197, 197);   
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) 
+{
+    header {
+        background-color: bisque;
+    }
+    .acerca-de-mi {
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .acerca-de-mi p{
+        font-size: 20px;
+        padding: 1px;
+
+    }
+    .sección3{
+        display: flex;
+        flex-direction: column;  
+    }
+    .items{
+        margin-left: 3cm;
+    }
+    
+}
