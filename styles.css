@@ -120,6 +120,13 @@ footer h2{
     justify-content: space-between;
     gap: 1cm;
 }
+.greeting{
+    display:flex;
+    background-color: lightsteelblue;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 footer nav {
     display: flex;
     gap: 5px;
