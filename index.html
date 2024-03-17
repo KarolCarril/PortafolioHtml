@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,28 +15,35 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div class="container">
-        <header> 
-            <a href=index.html"><i class="fa-solid fa-seedling"></i></a>
-            <nav> 
-                <ul>
-                    <li><a href="inicio">INICIO</a></li>
-                    <li><a href="acercademi">ACERCA DE MI</a></li>
-                    <li><a href="trabajos">TRABAJOS</a></li>
-                    <li><a href="servicios">SERVICIOS</a></li>
-                    <Li><a href="contacto">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header id="container">
+        <h1 class="logo">
+        <a href=index.html" class="fa-solid fa-seedling">GROWING</a>
+        </h1>    
+        <nav> 
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="menu">
+                <li><a href="inicio">INICIO</a></li>
+                <li><a href="acercademi">ACERCA DE MI</a></li>
+                <li><a href="trabajos">TRABAJOS</a></li>
+                <li><a href="servicios">SERVICIOS</a></li>
+                <li><a href="contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
 
         <main class="seccion-principal">
             <section class="seccion1">
                 <div class="acerca-de-mi">
                     <div><h2>ACERCA DE MI</h2>
-                    <p>Bienvenido a este espacio donde juntos lograremos tu mejor versión. Hola, mi nombre es Karol y soy profesora de Desarrollo Personal y me fascina la Neuropsicología aplicada a la educación. 
+                    <p class="parrafo1">Bienvenido a este espacio donde juntos lograremos tu mejor versión. Hola, mi nombre es Karol y soy profesora de Desarrollo Personal y me fascina la Neuropsicología aplicada a la educación. 
                     En este espacio desarrollaremos actividades dinámicas e interactivas para desarrollar tus habilidades cognitivas y emocionales.</p>
                     </div> 
                     <div class="profile-imagen">
@@ -56,30 +63,31 @@
             </section>
 
         
-            <section class="titulo-seccion-3">
-                <h2>TRABAJOS</h2>
-                    <div class="sección3">
+            <h2 class="titulo-seccion-3"></p>TRABAJOS</h2>
+                <section class="sección3">
                         <div class="recursos-gratuitos">                      
                             <img src="memoria.jpg" alt="recursos-gratuitos" class="items"> 
                                 <h3 class="titulo-contenido-link">RECURSOS GRATUITOS</h3>
                                 <p>Estos recuersos te serán muy útiles para desarrollar tus capacidades cognitivas, y lo mejor, es que son lúdicos. 
                                 </p>
+                                <a href="link" class="leermas">Leer más</a>
                             </img>
                         </div>     
                         <div class="Metanoia">
-                            <img src="hab psico.jpg" alt="metanoia" class="items 2"> 
+                            <img src="hab psico.jpg" alt="metanoia" class="items"> 
                             <h3 class="titulo-contenido-link">METANOIA</h3>
                             <p>La metodología METANOIA, es una estrategia basada en ciencia, que te permitirá adquirir hábitos de una forma sencilla y simple, asi como lo es revisar tu celular todos los días.
                             </p>
+                            <a href="link" class="leermas">Leer más</a>
                         </div>
                         <div class="Mentorías-individuales">
                             <img src="corazon.jpg" alt="corazon" class="items"> 
                             <h3 class="titulo-contenido-link">MENTORÍAS INDIVIDUALES</h3>
                             <p>Mi compromiso contigo es acompañarte en tu proceso de evolucion personal tomando en cuenta tus dimensiones psicosocioemocionales. Estaré contigo en el paso a paso.
                             </p>
+                            <a href="link" class="leermas">Leer más</a>
                         </div>
-                    </div>
-            </section>
+                </section>
         </main>
 
 
@@ -98,5 +106,9 @@
             </div>     
         </footer>
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>
+
+
+
